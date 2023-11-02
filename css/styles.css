@@ -204,7 +204,10 @@ p {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-
+.second-section-list {
+  display: flex;
+  gap: 24px;
+}
 .second-section-list-item {
   width: calc((100% - 3 * 24px) / 4);
 }
@@ -212,7 +215,8 @@ p {
   background-color: #f4f4fd;
 }
 .team-list {
-  text-align: center;
+  display: flex;
+  gap: 24px;
 }
 .team-list-item {
   width: calc((100% - 3 * 24px) / 4);
@@ -229,6 +233,8 @@ p {
 }
 
 .portfolio-list {
+  display: flex;
+  gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
   background-color: #fff;
