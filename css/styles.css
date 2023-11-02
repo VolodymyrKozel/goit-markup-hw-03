@@ -1,0 +1,147 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  color: #2e2f42;
+  font-weight: 700;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+a,
+p {
+  letter-spacing: 0.32px;
+}
+
+.main-heading {
+  font-size: 56px;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.second-heading {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.third-heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.logo-typography {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+/* Header section */
+
+.header {
+  background-color: #fff;
+}
+.header-logo span {
+  color: #2e2f42;
+}
+
+.header-menu-link {
+  color: #2e2f42;
+  font-weight: 500;
+}
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-address-link {
+  color: #434455;
+}
+
+/* Hero section */
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+}
+.hero-title {
+  color: #fff;
+}
+.hero-btn {
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+.second-section-list-title {
+  text-align: center;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+.team-list-li {
+  text-align: center;
+  background-color: #fff;
+}
+
+.portfolio-title {
+  text-align: center;
+}
+
+.portfolio-list {
+  background-color: #fff;
+}
+.portfolio-list-li {
+  background: #fff;
+}
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo-span {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+}
