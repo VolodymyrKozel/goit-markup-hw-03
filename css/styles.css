@@ -208,6 +208,7 @@ p {
 
 .portfolio-list {
   flex-wrap: wrap;
+  row-gap: 48px;
   background-color: #fff;
 }
 .portfolio-list-item {
